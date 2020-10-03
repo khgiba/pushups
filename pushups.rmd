@@ -62,5 +62,8 @@ t.test(pushups~position,data=pushups)
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+We used a T test due to the categorical variable only has two level of positions, line and skills  
+
+We reject the Null hypothesis, per the t.test it states that there is a difference between the two positions of Skills and line, that the skills position is able to do more pushups.  
 
 When your markdown file successfully knits and you are satisfied with your results, then push your work back to your github repository and submit the link to your github repo to canvas  to complete this assignment.
