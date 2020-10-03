@@ -1,7 +1,7 @@
 ---
 title: "Who Does More Pushups"
-author: "Your Name"
-date: "Fall 2020"
+author: "Kathleen Giba"
+date: "October 2020"
 output:
 html_document:
 number_sections: true
@@ -12,7 +12,7 @@ toc: true
 ```{r include=FALSE,echo=FALSE}
 require(tigerstats)
 require(tidyverse)
-data("pushups")
+data(pushups)
 ```
 
 # Introduction
@@ -22,7 +22,12 @@ data("pushups")
 # Methods
 
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
+pushups is a numerical variable  
+position is a categorical  
+we will load the numerical~cat template  
 
+$H_0$:The null hypothesis states that there is no difference in the average number of pushups a player can do in two minutes based on the position they play.    
+$H_A$: The alternative hypothesis states that there is a difference in the average number of pushups a player can do in two minutes based on the position they play.  
 # Results
 
 <!--Divide this section into two sub-sections: One for your descriptive results and one for your inferential results.!-->
@@ -34,6 +39,8 @@ data("pushups")
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ### Numerical Descriptive Results
+
+
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
